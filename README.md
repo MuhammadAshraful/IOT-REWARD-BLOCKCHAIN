@@ -47,3 +47,95 @@ contract NRCCoin is ERC20 {
         _transfer(msg.sender, to, amount * (10 ** decimals()));
     }
 }
+
+
+# 🌾 Blockchain-based IoT Sensor Reward System using NRC Tokens
+
+This project demonstrates how smart contracts on Ethereum (Sepolia testnet) can be used to reward IoT devices (e.g., soil moisture sensors) with NRC Tokens. Python interacts with the blockchain via Web3.py and MetaMask using a private key (secured via `.env`). It simulates real-world applications such as smart farming.
+
+---
+
+## 🖥️ Python Interaction Script
+
+The `iot_reward.py` script does the following:
+
+- Connects to Ethereum testnet (Sepolia) using **Infura endpoint**
+- Loads **ABI** from Remix IDE export
+- Interacts with deployed NRC token contract
+- Calls the `reward()` function to simulate giving tokens to a sensor
+- Uses a **MetaMask private key** (stored in `.env`) to sign transactions securely
+
+> ⚠️ **Warning:** Never commit or upload your `.env` file or private keys to GitHub.
+
+---
+
+## 🛰️ Use Case: Smart Farming Example
+
+This project simulates a smart agriculture scenario where:
+
+- Soil moisture sensors track data and report to the blockchain
+- The smart contract's `reward()` function distributes tokens to working sensors
+- Rewards can be customized based on:
+  - Sensor uptime
+  - Data accuracy
+  - Reporting frequency or time intervals
+
+This incentivizes uptime, trust, and transparency in remote agriculture environments.
+
+---
+
+## 📸 Project Demonstrations
+
+All screenshots and supporting evidence are in the `/screenshots/` folder:
+
+- ✅ Remix smart contract deployment
+- ✅ Verified transaction hash on Etherscan
+- ✅ MetaMask token and balance screenshots
+- ✅ Infura project setup screenshot
+- ✅ Python Jupyter Notebook backend interaction
+- ✅ ETH faucet proof on Sepolia testnet
+
+---
+
+## 🚧 Limitations and Challenges
+
+| Challenge | Description |
+|----------|-------------|
+| ⛽ Gas Fees | Transactions on mainnet could be expensive |
+| 🕒 Latency | Blockchain confirmations are slower than real-time systems |
+| 🧱 Hardware Gap | Requires actual IoT devices for full testing |
+| 📡 No Oracles | Real-time sensor validation isn't included (no Chainlink used yet) |
+
+---
+
+## 📚 Future Improvements
+
+- 🔌 Integrate real sensors (e.g., **Raspberry Pi** + soil sensor)
+- ⛓️ Add **oracles** (e.g., Chainlink) to verify off-chain data
+- ⬆️ Upgrade to Layer 2 networks like **Polygon**, **Arbitrum** to reduce fees
+- 🌐 Build a frontend **DApp** for farmer dashboard or reward claim interface
+
+---
+
+## 📄 License
+
+This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).  
+© 2025
+
+---
+
+## 🙋 Author & Supervisor
+
+- **Author:** [Your Full Name]  
+- **Supervisor:** [Lecturer’s Name]
+
+---
+
+## 📬 Contact
+
+For questions, suggestions, or collaboration:
+
+- GitHub: [your-github-username]  
+- Email: [your-email]
+
+
