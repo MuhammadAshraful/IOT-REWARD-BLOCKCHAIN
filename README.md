@@ -47,7 +47,7 @@ contract NRCCoin is ERC20 {
         _transfer(msg.sender, to, amount * (10 ** decimals()));
     }
 }
-
+```
 
 # 🌾 Blockchain-based IoT Sensor Reward System using NRC Tokens
 
