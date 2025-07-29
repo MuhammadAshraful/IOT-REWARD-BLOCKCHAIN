@@ -1,0 +1,16 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+
+
+# Conda environments
+*.conda
+*.env
+*.venv
+
+# VSCode settings (optional)
+.vscode/
+
+# Jupyter stuff (optional)
+.ipynb_checkpoints/
