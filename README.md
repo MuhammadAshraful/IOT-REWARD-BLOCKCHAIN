@@ -122,20 +122,7 @@ All screenshots and supporting evidence are in the `/screenshots/` folder:
 This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).  
 © 2025
 
----
 
-## 🙋 Author & Supervisor
 
-- **Author:** [Your Full Name]  
-- **Supervisor:** [Lecturer’s Name]
-
----
-
-## 📬 Contact
-
-For questions, suggestions, or collaboration:
-
-- GitHub: [your-github-username]  
-- Email: [your-email]
 
 
